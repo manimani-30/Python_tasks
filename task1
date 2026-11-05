@@ -1,0 +1,18 @@
+def check(shirt="black", pant="black"):
+    return (shirt, pant)
+
+def secon():
+    shirt = input("enter a shirt color: ")
+    pant = input("enter a pant color: ")
+    
+    if shirt == "black":
+        print("shirt is available")
+    else:
+        print("shirt is not available")
+        
+    if pant == "black":
+        print("pant is available")
+    else:
+        print("pant is not available")
+
+secon()
